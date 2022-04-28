@@ -1,0 +1,294 @@
+@import "nullstyle";
+/*---------------------------------------*/
+$Grey: #6B7280;
+$TextColor: #111827;
+$blue: #0284FE;
+$purple: #062860;
+$PageBackroundGray: #F9F9FA;
+$Shadow: 0 2px 5px rgba(0,0,0,0.2), 0 4px 6px rgba(0,0,0,0.2);
+body{
+  font-family: Consolas;
+  background-color: $PageBackroundGray;
+}
+.btn_blue{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: $blue;
+  color: white;
+  text-align: center;
+  @media (max-width: 769px) {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+.btn_white{
+  width: 100%;
+  height: 100%;
+  border: 1px solid $blue;
+  border-radius: 10px;
+  padding: 10px 50px;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: white;
+  color: $blue;
+  text-align: center;
+  margin: 10px 0 0 0 ;
+  @media (max-width: 769px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+/*-----------------------------------------*/
+.wrapper{
+  display: flex;
+  flex-direction: column;
+}
+.content{}
+._container{
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+}
+.__container{
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 100%;
+
+}
+/*---Header--------------------------------------*/
+.header_container{}
+.header_content{
+  box-sizing: content-box;
+  padding: 0 20px;
+}
+.header_row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-item{
+
+}
+.header_logo{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.logo_img{}
+.header_menu{}
+.header_list{}
+.header_link{
+  color: $Grey;
+  margin: 0 10px;
+}
+.header-link_img{
+  width: 100%;
+  height: 100%;
+
+}
+.header_img{
+  margin: 0 5px;
+}
+/*--Page-------------------------------------------*/
+.page{}
+/*--Page-Tittle----------------------------*/
+.page-tittle_container{
+  box-sizing: content-box;
+  padding: 0 20px;
+  margin: 0 auto;
+  right: 0;
+  left: 0;
+}
+.page-tittle{
+  font-weight: bold;
+  font-size: 35px;
+  padding: 90px 0;
+}
+/*---Block 1------------------------------------------*/
+.page-block_container{
+  box-sizing: content-box;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.page-block_row{
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 951px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    //padding: 0 20%;
+  }
+}
+.page-block_item{
+}
+.page-block_1{
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: $Shadow;
+}
+.nav-row{
+  display: flex;
+  flex-direction: column;
+
+}
+.nav-item{
+  display: flex;
+  justify-content: space-between;
+  justify-content: left;
+  padding: 20px 30px;
+  &:hover{
+    background-color: #bfbdbd;
+    border-radius: 20px;
+  }
+}
+.nav-img{
+  padding: 10px 0 0 20px;
+}
+.nav-subtittle{
+  padding: 10px 0 0 20px;
+  font-weight: bold;
+  color: $blue;
+  :hover{
+    font-size: 40px;
+  }
+}
+/*----Block 2--------------------------------------------*/
+.page-block_2{
+  flex-grow: 1;
+}
+.page-block_text{
+
+}
+.page-block_text-row{
+  display: flex;
+  @media (max-width: 951px) {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.page-block_text-item{
+  padding: 0 50px 0 0;
+}
+.page-block_tittle{
+  font-weight: bold;
+  font-size: 30px;
+  color: $TextColor;
+  @media (max-width: 951px){
+    padding: 80px 0 0 0 ;
+  }
+}
+.page-block_subtittle{
+  color: $TextColor;
+  padding: 15px 0 0 0;
+  @media (max-width: 951px){
+    padding: 15px 0 70px 0;
+  }
+}
+.page_cube{}
+.page-cube{
+  display: flex;
+  justify-content: center;
+}
+.page-cube_img {
+  border: 2px solid $Grey;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  align-items: center;
+  text-align: center;
+  padding: 80px 0 0 0;
+}
+.cube_txt{
+
+}
+.page-cube_tittle{
+  padding: 10px 0;
+}
+.page-cube_txt{
+  padding: 5px 0 0 0;
+  font-weight: bold;
+  color: $blue;
+}
+.page-cube_input{
+  padding: 5px 3px;
+  border: 1px solid $blue;
+  border-radius: 5px;
+  width: 100%;
+
+}
+.page-cube_button{
+  padding: 20px 0 0 0;
+
+}
+
+.page_place-holder{}
+.place-holder-row{
+  display: flex;
+  flex-direction: column;
+}
+.place-holder-item{
+  width: 100%;
+  height: 300px;
+  background-color: #B6E6BB;
+  border-radius: 20px;
+  margin: 60px 0 0 0 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
